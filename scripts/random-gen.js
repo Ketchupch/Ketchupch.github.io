@@ -1,2 +1,3 @@
-let test = "<h1>HIII</h1>";
-document.body.innerHTML = test;
+let characters = ["Goku", "Vegeta", "Broly"];
+let chosen = Math.random() * characters.length;
+document.body.innerHTML = chosen;
