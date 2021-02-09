@@ -24,9 +24,6 @@ document.getElementById("reroll").onclick = function click(){
     document.getElementById("c2").innerHTML = characters[choice2];
     document.getElementById("c3").innerHTML = characters[choice3];
 
-    var audio =  new Audio("dbz.mp3");
-    audio.play();
-
     //please ignore this horribleness below
 
     switch(choice1){
@@ -415,5 +412,8 @@ document.getElementById("reroll").onclick = function click(){
             document.getElementById("c3img").src = "http://www.dustloop.com/wiki/images/0/06/DBFZ_Logo.png";
             
     }
+
+    var audio =  new Audio("dbz.mp3");
+    audio.play();
 
 }
