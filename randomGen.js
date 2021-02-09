@@ -1,1 +1,1 @@
-let test = "hi";
+document.body.innerHTML  = "<h1>hhu</h1>";
