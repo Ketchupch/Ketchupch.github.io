@@ -20,10 +20,6 @@ document.getElementById("reroll").onclick = function click(){
         choice3 = Math.floor(Math.random() * characters.length);
     }
 
-
-    //document.body.innerHTML = characters[chosen];
-    document.getElementById("start").innerHTML = characters[choice1];
-
     document.getElementById("c1").innerHTML = characters[choice1];
     document.getElementById("c2").innerHTML = characters[choice2];
     document.getElementById("c3").innerHTML = characters[choice3];
