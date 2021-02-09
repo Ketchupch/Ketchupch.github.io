@@ -16,7 +16,7 @@ document.getElementById("reroll").onclick = function click(){
     while(choice2 == choice1 || choice2 == choice3){
         choice2 = Math.floor(Math.random() * characters.length);
     }
-    while(choice3 == choice2 || choice2 == choice1){
+    while(choice3 == choice2 || choice3 == choice1){
         choice3 = Math.floor(Math.random() * characters.length);
     }
 
